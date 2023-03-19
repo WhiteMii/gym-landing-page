@@ -1,7 +1,7 @@
 import { classes } from "@/data/ourclasses.data";
 import React from "react";
 import { motion } from "framer-motion";
-import Class from "@/components/Class/Class";
+import Class from "@/components/class/Class";
 import Header from "@/components/UI/Header/Header";
 import { SelectedPage } from "@/types/types";
 import { IClass } from "@/types/types";

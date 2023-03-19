@@ -1,7 +1,10 @@
 import Navbar from "@/components/navbar/Navbar";
 import { useEffect, useState } from "react";
-import Benefits from "./screens/Benefits/Benefits";
-import Home from "./screens/Home/Home";
+import Benefits from "./screens/benefits/Benefits";
+import ContactUs from "./screens/contactUs/ContactUs";
+import Footer from "./screens/footer/Footer";
+import Home from "./screens/home/Home";
+import OurClasses from "./screens/ourClasses/OurClasses";
 import { SelectedPage } from "./types/types";
 
 function App() {
@@ -30,6 +33,9 @@ function App() {
       />
       <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <Benefits setSelectedPage={setSelectedPage} />
+      <OurClasses setSelectedPage={setSelectedPage} />
+      <ContactUs setSelectedPage={setSelectedPage} />
+      <Footer />
     </div>
   );
 }
