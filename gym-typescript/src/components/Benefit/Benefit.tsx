@@ -1,10 +1,10 @@
-import { IBenefitType, SelectedPage } from "@/types/types";
-import React from "react";
+import { IBenefit, SelectedPage } from "@/types/types";
+
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
 type Props = {
-  benefit: IBenefitType;
+  benefit: IBenefit;
   setSelectedPage: (value: SelectedPage) => void;
 };
 
